@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Telligent.Core.Infrastructure" Version="3.0.0.26301" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\modules\Telligent.Consumer.Identity.Application\Telligent.Consumer.Identity.Application.csproj" />
+    <ProjectReference Include="..\..\modules\Telligent.Consumer.Identity.Database\Telligent.Consumer.Identity.Database.csproj" />
+  </ItemGroup>
+
+</Project>

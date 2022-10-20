@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Telligent.Core.Domain" Version="3.0.0.26301" />
+    <PackageReference Include="Telligent.Core.Infrastructure" Version="3.0.0.26301" />
+  </ItemGroup>
+
+</Project>
